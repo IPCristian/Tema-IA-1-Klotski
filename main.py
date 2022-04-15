@@ -30,7 +30,7 @@ class NodParcurgere:
                 output.write("Mutam piesa {} in {}\n".format(nod.piesa, nod.miscare))
             elif i == len(l) - 1:
                 output.write("Mutam piesa * in {}\n".format(nod.miscare))
-            output.write(str(i+1) + ")\n")
+            output.write(str(i + 1) + ")\n")
             for j in range(1, len(nod.info) - 1):
                 for k in range(1, len(nod.info[0]) - 1):
                     output.write(str(nod.info[j][k]) + " ")
@@ -106,6 +106,16 @@ class Graph:  # graful problemei
         for linie in nodCurent.info:
             if '*' in linie:
                 return False
+
+        if nodCurent.parinte is not None:
+            ultimul = nodCurent.parinte
+            nefinal = 1
+            for linie in ultimul.info:
+                if '*' in linie:
+                    nefinal = 0
+            if nefinal == 0:
+                return False
+
         return True
 
     def nuAreSolutii(self, infoNod):
@@ -228,8 +238,8 @@ class Graph:  # graful problemei
                 min_dist = []
                 for punct in self.Iesiri:
                     min_dist.append(abs(stea[0] - punct[0]) + abs(stea[1] - punct[1]))
-                h += min(min_dist)  # Facem suma minimelor
-            return h
+                h += min(min_dist)
+            return h/len(coordonate_star)                #  distanta Manhattan de la mijlocul piesei la iesire
         elif tip_euristica == "euristica neadmisibila":
             h = 0
             for i in range(len(infoNod)):
@@ -605,7 +615,3 @@ for fisier in os.listdir(director):
     output.write("\n\n##################\n\nSolutii obtinute cu IDA* - Neadmisibila:\n")
     t1 = time.time()
     ida_star(gr, nrSolutiiCautate=nr_sol, tip_euristica="euristica neadmisibila")
-
-# To Do:
-# Admisibila 2
-# Documentatie pe baza rezultatelor

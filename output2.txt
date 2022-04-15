@@ -1,0 +1,3 @@
+Urmatoarele sunt solutiile pentru fisierul de input: .\input_folder
+
+

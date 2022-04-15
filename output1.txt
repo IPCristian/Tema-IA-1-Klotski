@@ -2,7 +2,7 @@ Urmatoarele sunt solutiile pentru fisierul de input: .\input.txt
 
 
 Solutii obtinute cu breadth first:
-7.399001121520996 secunde
+9.478998184204102 secunde
 Solutie:
 1)
 # # . . # # 
@@ -79,7 +79,7 @@ Numar noduri totale in memorie: 57333
 
 ----------------
 
-7.450002193450928 secunde
+9.551998376846313 secunde
 Solutie:
 1)
 # # . . # # 
@@ -156,90 +156,13 @@ Numar noduri totale in memorie: 57793
 
 ----------------
 
-8.450999975204468 secunde
-Solutie:
-1)
-# # . . # # 
-# . . B B # 
-# A . * * # 
-# # # # # # 
-
-Mutam piesa B in stanga
-2)
-# # . . # # 
-# . B B . # 
-# A . * * # 
-# # # # # # 
-
-Mutam piesa A in dreapta
-3)
-# # . . # # 
-# . B B . # 
-# . A * * # 
-# # # # # # 
-
-Mutam piesa B in stanga
-4)
-# # . . # # 
-# B B . . # 
-# . A * * # 
-# # # # # # 
-
-Mutam piesa * in sus
-5)
-# # . . # # 
-# B B * * # 
-# . A . . # 
-# # # # # # 
-
-Mutam piesa A in dreapta
-6)
-# # . . # # 
-# B B * * # 
-# . . A . # 
-# # # # # # 
-
-Mutam piesa B in jos
-7)
-# # . . # # 
-# . . * * # 
-# B B A . # 
-# # # # # # 
-
-Mutam piesa * in stanga
-8)
-# # . . # # 
-# . * * . # 
-# B B A . # 
-# # # # # # 
-
-Mutam piesa * in sus
-9)
-# # * * # # 
-# . . . . # 
-# B B A . # 
-# # # # # # 
-
-Mutam piesa * in sus
-10)
-# # . . # # 
-# . . . . # 
-# B B A . # 
-# # # # # # 
-
-Cost: 12
-Lungime: 10
-Numar noduri totale in memorie: 65001
-
-----------------
-
-Numar noduri maxime in memorie: 57333
+Trecut  de timp limita
 
 
 ##################
 
 Solutii obtinute cu Depth First:
-0.024999380111694336 secunde
+0.03499960899353027 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -785,7 +708,7 @@ Numar noduri totale in memorie: 197
 
 ----------------
 
-0.02599954605102539 secunde
+0.037000179290771484 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -1338,7 +1261,7 @@ Numar noduri totale in memorie: 201
 
 ----------------
 
-0.0279998779296875 secunde
+0.039000511169433594 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -1924,7 +1847,7 @@ Adancime maxima: 8
 Adancime maxima: 9
 **************
 Adancime maxima: 10
-3.555999994277954 secunde
+5.7050042152404785 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2001,7 +1924,7 @@ Numar noduri totale in memorie: 26
 
 ----------------
 
-3.5820000171661377 secunde
+5.749001741409302 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2078,7 +2001,7 @@ Numar noduri totale in memorie: 27
 
 ----------------
 
-4.073000431060791 secunde
+6.572001218795776 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2167,7 +2090,7 @@ Trecut  de timp limita
 ##################
 
 Solutii obtinute cu A* - Admisibil 1:
-0.4199981689453125 secunde
+6.53899884223938 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2175,179 +2098,75 @@ Solutie:
 # A . * * # 
 # # # # # # 
 
-Mutam piesa * in stanga
+Mutam piesa B in stanga
 2)
 # # . . # # 
-# . . B B # 
-# A * * . # 
-# # # # # # 
-
-Mutam piesa A in sus
-3)
-# # . . # # 
-# A . B B # 
-# . * * . # 
-# # # # # # 
-
-Mutam piesa * in stanga
-4)
-# # . . # # 
-# A . B B # 
-# * * . . # 
+# . B B . # 
+# A . * * # 
 # # # # # # 
 
 Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . B B . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+4)
+# # . . # # 
+# B B . . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa * in sus
 5)
 # # . . # # 
-# . A B B # 
-# * * . . # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
 # # # # # # 
 
 Mutam piesa B in jos
-6)
-# # . . # # 
-# . A . . # 
-# * * B B # 
-# # # # # # 
-
-Mutam piesa A in dreapta
 7)
 # # . . # # 
-# . . A . # 
-# * * B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-8)
-# # . . # # 
-# * * A . # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa A in dreapta
-9)
-# # . . # # 
-# * * . A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in dreapta
-10)
-# # . . # # 
-# . * * A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-11)
-# # * * # # 
-# . . . A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-12)
-# # . . # # 
-# . . . A # 
-# . . B B # 
-# # # # # # 
-
-Cost: 12
-Lungime: 12
-Numar noduri totale in memorie: 2804
-
-----------------
-0.5089976787567139 secunde
-Solutie: 
-1)
-# # . . # # 
-# . . B B # 
-# A . * * # 
-# # # # # # 
-
-Mutam piesa A in sus
-2)
-# # . . # # 
-# A . B B # 
 # . . * * # 
+# B B A . # 
 # # # # # # 
 
 Mutam piesa * in stanga
-3)
-# # . . # # 
-# A . B B # 
-# . * * . # 
-# # # # # # 
-
-Mutam piesa * in stanga
-4)
-# # . . # # 
-# A . B B # 
-# * * . . # 
-# # # # # # 
-
-Mutam piesa A in dreapta
-5)
-# # . . # # 
-# . A B B # 
-# * * . . # 
-# # # # # # 
-
-Mutam piesa B in jos
-6)
-# # . . # # 
-# . A . . # 
-# * * B B # 
-# # # # # # 
-
-Mutam piesa A in dreapta
-7)
-# # . . # # 
-# . . A . # 
-# * * B B # 
-# # # # # # 
-
-Mutam piesa * in sus
 8)
 # # . . # # 
-# * * A . # 
-# . . B B # 
+# . * * . # 
+# B B A . # 
 # # # # # # 
 
-Mutam piesa A in dreapta
+Mutam piesa * in sus
 9)
-# # . . # # 
-# * * . A # 
-# . . B B # 
+# # * * # # 
+# . . . . # 
+# B B A . # 
 # # # # # # 
 
-Mutam piesa * in dreapta
+Mutam piesa * in sus
 10)
 # # . . # # 
-# . * * A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-11)
-# # * * # # 
-# . . . A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-12)
-# # . . # # 
-# . . . A # 
-# . . B B # 
+# . . . . # 
+# B B A . # 
 # # # # # # 
 
 Cost: 12
-Lungime: 12
-Numar noduri totale in memorie: 3169
+Lungime: 10
+Numar noduri totale in memorie: 13205
 
 ----------------
-0.6719985008239746 secunde
+8.952999830245972 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2355,89 +2174,151 @@ Solutie:
 # A . * * # 
 # # # # # # 
 
-Mutam piesa * in stanga
+Mutam piesa A in dreapta
 2)
 # # . . # # 
 # . . B B # 
-# A * * . # 
+# . A * * # 
 # # # # # # 
 
-Mutam piesa A in sus
+Mutam piesa B in stanga
 3)
 # # . . # # 
-# A . B B # 
+# . B B . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+4)
+# # . . # # 
+# B B . . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
 # . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 15392
+
+----------------
+9.758001804351807 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
 # # # # # # 
 
 Mutam piesa A in dreapta
 4)
 # # . . # # 
-# . A B B # 
-# . * * . # 
+# B B . . # 
+# . A * * # 
 # # # # # # 
 
-Mutam piesa * in stanga
+Mutam piesa * in sus
 5)
 # # . . # # 
-# . A B B # 
-# * * . . # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
 # # # # # # 
 
 Mutam piesa B in jos
-6)
-# # . . # # 
-# . A . . # 
-# * * B B # 
-# # # # # # 
-
-Mutam piesa A in dreapta
 7)
 # # . . # # 
-# . . A . # 
-# * * B B # 
+# . . * * # 
+# B B A . # 
 # # # # # # 
 
-Mutam piesa * in sus
+Mutam piesa * in stanga
 8)
 # # . . # # 
-# * * A . # 
-# . . B B # 
+# . * * . # 
+# B B A . # 
 # # # # # # 
 
-Mutam piesa A in dreapta
+Mutam piesa * in sus
 9)
-# # . . # # 
-# * * . A # 
-# . . B B # 
+# # * * # # 
+# . . . . # 
+# B B A . # 
 # # # # # # 
 
-Mutam piesa * in dreapta
+Mutam piesa * in sus
 10)
 # # . . # # 
-# . * * A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-11)
-# # * * # # 
-# . . . A # 
-# . . B B # 
-# # # # # # 
-
-Mutam piesa * in sus
-12)
-# # . . # # 
-# . . . A # 
-# . . B B # 
+# . . . . # 
+# B B A . # 
 # # # # # # 
 
 Cost: 12
-Lungime: 12
-Numar noduri totale in memorie: 3836
+Lungime: 10
+Numar noduri totale in memorie: 16120
 
 ----------------
-Numar noduri maxime in memorie: 2804
+Numar noduri maxime in memorie: 13205
 
 
 ##################
@@ -2449,7 +2330,7 @@ Trecut  de timp limita
 ##################
 
 Solutii obtinute cu A* optimizat - Banal:
-0.09099793434143066 secunde
+0.1289987564086914 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2540,7 +2421,7 @@ Numar noduri totale in memorie: 784
 
 ----------------
 
-0.10599827766418457 secunde
+0.14999842643737793 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2617,7 +2498,7 @@ Numar noduri totale in memorie: 912
 
 ----------------
 
-0.11199736595153809 secunde
+0.15799975395202637 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2707,7 +2588,7 @@ Numar noduri maxime in memorie: 784
 ##################
 
 Solutii obtinute cu A* optimizat - Admisibil 1:
-0.0429997444152832 secunde
+0.11599898338317871 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2780,11 +2661,11 @@ Mutam piesa * in sus
 
 Cost: 12
 Lungime: 10
-Numar noduri totale in memorie: 342
+Numar noduri totale in memorie: 496
 
 ----------------
 
-0.04799938201904297 secunde
+0.11799907684326172 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2871,11 +2752,11 @@ Mutam piesa * in sus
 
 Cost: 12
 Lungime: 12
-Numar noduri totale in memorie: 385
+Numar noduri totale in memorie: 502
 
 ----------------
 
-0.057999372482299805 secunde
+0.1550002098083496 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -2969,17 +2850,17 @@ Mutam piesa * in sus
 
 Cost: 13
 Lungime: 13
-Numar noduri totale in memorie: 451
+Numar noduri totale in memorie: 649
 
 ----------------
 
-Numar noduri maxime in memorie: 342
+Numar noduri maxime in memorie: 496
 
 
 ##################
 
 Solutii obtinute cu A* optimizat - Neadmisibil:
-0.10299992561340332 secunde
+0.1250007152557373 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3070,7 +2951,7 @@ Numar noduri totale in memorie: 784
 
 ----------------
 
-0.10299992561340332 secunde
+0.12599897384643555 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3168,7 +3049,7 @@ Numar noduri totale in memorie: 786
 
 ----------------
 
-0.10400056838989258 secunde
+0.1269991397857666 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3302,7 +3183,7 @@ Limita de pornire: 10
 Limita de pornire: 11
 >>> Limita noua: 12
 Limita de pornire: 12
-7.42799973487854 secunde
+10.58254361152649 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3393,7 +3274,7 @@ Numar noduri totale in memorie: 33
 12
 ----------------
 
-7.430999279022217 secunde
+10.586543798446655 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3484,7 +3365,7 @@ Numar noduri totale in memorie: 31
 12
 ----------------
 
-8.786001205444336 secunde
+12.45954418182373 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3582,6 +3463,10 @@ Numar noduri maxime in memorie: 34
 
 Solutii obtinute cu IDA* - Admisibila 1:
 Limita de pornire: 1
+>>> Limita noua: 3
+Limita de pornire: 3
+>>> Limita noua: 4
+Limita de pornire: 4
 >>> Limita noua: 5
 Limita de pornire: 5
 >>> Limita noua: 6
@@ -3598,7 +3483,7 @@ Limita de pornire: 10
 Limita de pornire: 11
 >>> Limita noua: 12
 Limita de pornire: 12
-0.5749988555908203 secunde
+5.615999698638916 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3689,7 +3574,7 @@ Numar noduri totale in memorie: 33
 12
 ----------------
 
-0.7059979438781738 secunde
+5.620000839233398 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3704,14 +3589,14 @@ Mutam piesa A in sus
 # . . * * # 
 # # # # # # 
 
-Mutam piesa * in stanga
+Mutam piesa A in dreapta
 3)
 # # . . # # 
-# A . B B # 
-# . * * . # 
+# . A B B # 
+# . . * * # 
 # # # # # # 
 
-Mutam piesa A in dreapta
+Mutam piesa * in stanga
 4)
 # # . . # # 
 # . A B B # 
@@ -3739,14 +3624,14 @@ Mutam piesa A in dreapta
 # * * B B # 
 # # # # # # 
 
-Mutam piesa * in sus
+Mutam piesa A in dreapta
 8)
 # # . . # # 
-# * * A . # 
-# . . B B # 
+# . . . A # 
+# * * B B # 
 # # # # # # 
 
-Mutam piesa A in dreapta
+Mutam piesa * in sus
 9)
 # # . . # # 
 # * * . A # 
@@ -3776,11 +3661,11 @@ Mutam piesa * in sus
 
 Cost: 12
 Lungime: 12
-Numar noduri totale in memorie: 34
+Numar noduri totale in memorie: 31
 12
 ----------------
 
-0.7529981136322021 secunde
+6.687000036239624 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3802,14 +3687,14 @@ Mutam piesa * in stanga
 # . * * . # 
 # # # # # # 
 
-Mutam piesa * in stanga
+Mutam piesa A in dreapta
 4)
 # # . . # # 
-# A . B B # 
-# * * . . # 
+# . A B B # 
+# . * * . # 
 # # # # # # 
 
-Mutam piesa A in dreapta
+Mutam piesa * in stanga
 5)
 # # . . # # 
 # . A B B # 
@@ -3900,7 +3785,7 @@ Limita de pornire: 105
 Limita de pornire: 106
 >>> Limita noua: 107
 Limita de pornire: 107
-7.722999811172485 secunde
+11.093999862670898 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -3991,7 +3876,7 @@ Numar noduri totale in memorie: 33
 107
 ----------------
 
-7.722999811172485 secunde
+11.095000505447388 secunde
 Solutie: 
 1)
 # # . . # # 
@@ -4089,7 +3974,7 @@ Numar noduri totale in memorie: 35
 107
 ----------------
 
-7.724000453948975 secunde
+11.095000505447388 secunde
 Solutie: 
 1)
 # # . . # # 
