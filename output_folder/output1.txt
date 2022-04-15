@@ -1,0 +1,4197 @@
+Urmatoarele sunt solutiile pentru fisierul de input: input_folder\input3.txt
+
+
+Solutii obtinute cu breadth first:
+7.486998558044434 secunde
+Solutie:
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+4)
+# # . . # # 
+# B B * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 57333
+
+----------------
+
+7.537998914718628 secunde
+Solutie:
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# B B . . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 57793
+
+----------------
+
+8.545998811721802 secunde
+Solutie:
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . B B . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+4)
+# # . . # # 
+# B B . . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 65001
+
+----------------
+
+Numar noduri maxime in memorie: 57333
+
+
+##################
+
+Solutii obtinute cu Depth First:
+0.024996519088745117 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+4)
+# # A . # # 
+# . . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . A # # 
+# . . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+6)
+# # . A # # 
+# . B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+7)
+# # A . # # 
+# . B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+8)
+# # A . # # 
+# B B . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . A # # 
+# B B . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in jos
+10)
+# # . . # # 
+# B B A . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+11)
+# # . . # # 
+# B B . A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+12)
+# # . . # # 
+# . B B A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in sus
+13)
+# # B B # # 
+# . . . A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+14)
+# # B B # # 
+# . . A . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+15)
+# # B B # # 
+# . A . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+16)
+# # B B # # 
+# A . . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in jos
+17)
+# # . . # # 
+# A B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in jos
+18)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in sus
+19)
+# # B B # # 
+# . . . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+20)
+# # B B # # 
+# . . * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+21)
+# # B B # # 
+# A . * * # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+22)
+# # B B # # 
+# . A * * # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in jos
+23)
+# # B B # # 
+# . . * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+24)
+# # B B # # 
+# . * * . # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+25)
+# # B B # # 
+# * * . . # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+26)
+# # B B # # 
+# * * . . # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+27)
+# # B B # # 
+# . * * . # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+28)
+# # B B # # 
+# A * * . # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa * in jos
+29)
+# # B B # # 
+# A . . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+30)
+# # B B # # 
+# . A . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+31)
+# # B B # # 
+# . . A . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+32)
+# # B B # # 
+# . . . A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in jos
+33)
+# # . . # # 
+# . B B A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in stanga
+34)
+# # . . # # 
+# B B . A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+35)
+# # . . # # 
+# B B A . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+36)
+# # . A # # 
+# B B . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+37)
+# # A . # # 
+# B B . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+38)
+# # A . # # 
+# . B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+39)
+# # . A # # 
+# . B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+40)
+# # . A # # 
+# . . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+41)
+# # A . # # 
+# . . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in jos
+42)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+43)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in stanga
+44)
+# # . . # # 
+# A B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+45)
+# # . . # # 
+# A B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in sus
+46)
+# # B B # # 
+# A . . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+47)
+# # B B # # 
+# . A . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+48)
+# # B B # # 
+# . . A . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa * in sus
+49)
+# # B B # # 
+# * * A . # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+50)
+# # B B # # 
+# * * . A # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+51)
+# # B B # # 
+# . * * A # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in jos
+52)
+# # B B # # 
+# . * * . # 
+# . . . A # 
+# # # # # # 
+
+Mutam piesa * in stanga
+53)
+# # B B # # 
+# * * . . # 
+# . . . A # 
+# # # # # # 
+
+Mutam piesa * in jos
+54)
+# # B B # # 
+# . . . . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa B in jos
+55)
+# # . . # # 
+# . B B . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa B in stanga
+56)
+# # . . # # 
+# B B . . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa A in sus
+57)
+# # . . # # 
+# B B . A # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+58)
+# # . . # # 
+# B B A . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+59)
+# # . A # # 
+# B B . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+60)
+# # A . # # 
+# B B . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+61)
+# # A . # # 
+# . B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+62)
+# # . A # # 
+# . B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+63)
+# # . A # # 
+# . . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+64)
+# # A . # # 
+# . . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa * in sus
+65)
+# # A . # # 
+# * * B B # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+66)
+# # . A # # 
+# * * B B # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+67)
+# # . A # # 
+# * * . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+68)
+# # A . # # 
+# * * . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+69)
+# # A . # # 
+# . * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+70)
+# # . A # # 
+# . * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+71)
+# # . A # # 
+# . . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+72)
+# # A . # # 
+# . . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in jos
+73)
+# # . . # # 
+# . A * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+74)
+# # . . # # 
+# A . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in stanga
+75)
+# # . . # # 
+# A * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+76)
+# # * * # # 
+# A . . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+77)
+# # . . # # 
+# A . . . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 93
+Lungime: 77
+Numar noduri totale in memorie: 197
+
+----------------
+
+0.026996612548828125 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+4)
+# # A . # # 
+# . . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . A # # 
+# . . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+6)
+# # . A # # 
+# . B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+7)
+# # A . # # 
+# . B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+8)
+# # A . # # 
+# B B . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . A # # 
+# B B . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in jos
+10)
+# # . . # # 
+# B B A . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+11)
+# # . . # # 
+# B B . A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+12)
+# # . . # # 
+# . B B A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in sus
+13)
+# # B B # # 
+# . . . A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+14)
+# # B B # # 
+# . . A . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+15)
+# # B B # # 
+# . A . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+16)
+# # B B # # 
+# A . . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in jos
+17)
+# # . . # # 
+# A B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in jos
+18)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in sus
+19)
+# # B B # # 
+# . . . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+20)
+# # B B # # 
+# . . * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+21)
+# # B B # # 
+# A . * * # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+22)
+# # B B # # 
+# . A * * # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in jos
+23)
+# # B B # # 
+# . . * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+24)
+# # B B # # 
+# . * * . # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+25)
+# # B B # # 
+# * * . . # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+26)
+# # B B # # 
+# * * . . # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+27)
+# # B B # # 
+# . * * . # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+28)
+# # B B # # 
+# A * * . # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa * in jos
+29)
+# # B B # # 
+# A . . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+30)
+# # B B # # 
+# . A . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+31)
+# # B B # # 
+# . . A . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+32)
+# # B B # # 
+# . . . A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in jos
+33)
+# # . . # # 
+# . B B A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in stanga
+34)
+# # . . # # 
+# B B . A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+35)
+# # . . # # 
+# B B A . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+36)
+# # . A # # 
+# B B . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+37)
+# # A . # # 
+# B B . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+38)
+# # A . # # 
+# . B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+39)
+# # . A # # 
+# . B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+40)
+# # . A # # 
+# . . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+41)
+# # A . # # 
+# . . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in jos
+42)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+43)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in stanga
+44)
+# # . . # # 
+# A B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+45)
+# # . . # # 
+# A B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in sus
+46)
+# # B B # # 
+# A . . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+47)
+# # B B # # 
+# . A . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+48)
+# # B B # # 
+# . . A . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa * in sus
+49)
+# # B B # # 
+# * * A . # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+50)
+# # B B # # 
+# * * . A # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+51)
+# # B B # # 
+# . * * A # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in jos
+52)
+# # B B # # 
+# . * * . # 
+# . . . A # 
+# # # # # # 
+
+Mutam piesa * in stanga
+53)
+# # B B # # 
+# * * . . # 
+# . . . A # 
+# # # # # # 
+
+Mutam piesa * in jos
+54)
+# # B B # # 
+# . . . . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa B in jos
+55)
+# # . . # # 
+# . B B . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa B in stanga
+56)
+# # . . # # 
+# B B . . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa A in sus
+57)
+# # . . # # 
+# B B . A # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+58)
+# # . . # # 
+# B B A . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+59)
+# # . A # # 
+# B B . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+60)
+# # A . # # 
+# B B . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+61)
+# # A . # # 
+# . B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+62)
+# # . A # # 
+# . B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+63)
+# # . A # # 
+# . . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+64)
+# # A . # # 
+# . . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa * in sus
+65)
+# # A . # # 
+# * * B B # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+66)
+# # . A # # 
+# * * B B # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+67)
+# # . A # # 
+# * * . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+68)
+# # A . # # 
+# * * . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+69)
+# # A . # # 
+# . * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+70)
+# # . A # # 
+# . * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+71)
+# # . A # # 
+# . . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+72)
+# # A . # # 
+# . . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in jos
+73)
+# # . . # # 
+# . A * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+74)
+# # . . # # 
+# A . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in stanga
+75)
+# # . . # # 
+# A * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+76)
+# # * * # # 
+# A . . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa . in sus
+77)
+# # . . # # 
+# A . . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+78)
+# # . . # # 
+# . A . . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 94
+Lungime: 78
+Numar noduri totale in memorie: 201
+
+----------------
+
+0.02899622917175293 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+4)
+# # A . # # 
+# . . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . A # # 
+# . . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+6)
+# # . A # # 
+# . B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+7)
+# # A . # # 
+# . B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+8)
+# # A . # # 
+# B B . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . A # # 
+# B B . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in jos
+10)
+# # . . # # 
+# B B A . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+11)
+# # . . # # 
+# B B . A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+12)
+# # . . # # 
+# . B B A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in sus
+13)
+# # B B # # 
+# . . . A # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+14)
+# # B B # # 
+# . . A . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+15)
+# # B B # # 
+# . A . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in stanga
+16)
+# # B B # # 
+# A . . . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa B in jos
+17)
+# # . . # # 
+# A B B . # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in jos
+18)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in sus
+19)
+# # B B # # 
+# . . . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+20)
+# # B B # # 
+# . . * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+21)
+# # B B # # 
+# A . * * # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+22)
+# # B B # # 
+# . A * * # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in jos
+23)
+# # B B # # 
+# . . * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+24)
+# # B B # # 
+# . * * . # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+25)
+# # B B # # 
+# * * . . # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+26)
+# # B B # # 
+# * * . . # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+27)
+# # B B # # 
+# . * * . # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+28)
+# # B B # # 
+# A * * . # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa * in jos
+29)
+# # B B # # 
+# A . . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+30)
+# # B B # # 
+# . A . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+31)
+# # B B # # 
+# . . A . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+32)
+# # B B # # 
+# . . . A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in jos
+33)
+# # . . # # 
+# . B B A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in stanga
+34)
+# # . . # # 
+# B B . A # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+35)
+# # . . # # 
+# B B A . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+36)
+# # . A # # 
+# B B . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+37)
+# # A . # # 
+# B B . . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+38)
+# # A . # # 
+# . B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+39)
+# # . A # # 
+# . B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+40)
+# # . A # # 
+# . . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+41)
+# # A . # # 
+# . . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in jos
+42)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+43)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa B in stanga
+44)
+# # . . # # 
+# A B B . # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+45)
+# # . . # # 
+# A B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in sus
+46)
+# # B B # # 
+# A . . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+47)
+# # B B # # 
+# . A . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+48)
+# # B B # # 
+# . . A . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa * in sus
+49)
+# # B B # # 
+# * * A . # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+50)
+# # B B # # 
+# * * . A # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+51)
+# # B B # # 
+# . * * A # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in jos
+52)
+# # B B # # 
+# . * * . # 
+# . . . A # 
+# # # # # # 
+
+Mutam piesa * in stanga
+53)
+# # B B # # 
+# * * . . # 
+# . . . A # 
+# # # # # # 
+
+Mutam piesa * in jos
+54)
+# # B B # # 
+# . . . . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa B in jos
+55)
+# # . . # # 
+# . B B . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa B in stanga
+56)
+# # . . # # 
+# B B . . # 
+# * * . A # 
+# # # # # # 
+
+Mutam piesa A in sus
+57)
+# # . . # # 
+# B B . A # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+58)
+# # . . # # 
+# B B A . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in sus
+59)
+# # . A # # 
+# B B . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+60)
+# # A . # # 
+# B B . . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+61)
+# # A . # # 
+# . B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+62)
+# # . A # # 
+# . B B . # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in dreapta
+63)
+# # . A # # 
+# . . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in stanga
+64)
+# # A . # # 
+# . . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa * in sus
+65)
+# # A . # # 
+# * * B B # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+66)
+# # . A # # 
+# * * B B # 
+# . . . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+67)
+# # . A # # 
+# * * . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+68)
+# # A . # # 
+# * * . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+69)
+# # A . # # 
+# . * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+70)
+# # . A # # 
+# . * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+71)
+# # . A # # 
+# . . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+72)
+# # A . # # 
+# . . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in jos
+73)
+# # . . # # 
+# . A * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+74)
+# # . . # # 
+# A . * * # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in stanga
+75)
+# # . . # # 
+# A * * . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+76)
+# # * * # # 
+# A . . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa . in sus
+77)
+# # . . # # 
+# A . . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+78)
+# # . . # # 
+# . A . . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+79)
+# # A . # # 
+# . . . . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 95
+Lungime: 79
+Numar noduri totale in memorie: 206
+
+----------------
+
+Numar noduri maxime in memorie: 197
+
+
+##################
+
+Solutii obtinute cu Depth First Iterativ:
+**************
+Adancime maxima: 1
+**************
+Adancime maxima: 2
+**************
+Adancime maxima: 3
+**************
+Adancime maxima: 4
+**************
+Adancime maxima: 5
+**************
+Adancime maxima: 6
+**************
+Adancime maxima: 7
+**************
+Adancime maxima: 8
+**************
+Adancime maxima: 9
+**************
+Adancime maxima: 10
+3.5300002098083496 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+4)
+# # . . # # 
+# B B * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 26
+
+----------------
+
+3.5569992065429688 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# B B . . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 27
+
+----------------
+
+4.042002201080322 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . B B . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+4)
+# # . . # # 
+# B B . . # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 27
+
+----------------
+
+Numar noduri maxime in memorie: 27
+
+
+##################
+
+Solutii obtinute cu A* - Banal:
+Trecut  de timp limita 
+
+
+##################
+
+Solutii obtinute cu A* - Admisibil 1:
+0.5219995975494385 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+2)
+# # . . # # 
+# . . B B # 
+# A * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# A . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 2804
+
+----------------
+0.6290030479431152 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# A . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 3169
+
+----------------
+0.8000030517578125 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+2)
+# # . . # # 
+# . . B B # 
+# A * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 3836
+
+----------------
+Numar noduri maxime in memorie: 2804
+
+
+##################
+
+Solutii obtinute cu A* - Neadmisibil:
+Trecut  de timp limita 
+
+
+##################
+
+Solutii obtinute cu A* optimizat - Banal:
+0.09199905395507812 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+2)
+# # . . # # 
+# . . B B # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 784
+
+----------------
+
+0.10799932479858398 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+4)
+# # . . # # 
+# B B * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 912
+
+----------------
+
+0.11299967765808105 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+4)
+# # . . # # 
+# B B * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa . in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+11)
+# # . . # # 
+# . . . . # 
+# B B . A # 
+# # # # # # 
+
+Cost: 13
+Lungime: 11
+Numar noduri totale in memorie: 959
+
+----------------
+
+Numar noduri maxime in memorie: 784
+
+
+##################
+
+Solutii obtinute cu A* optimizat - Admisibil 1:
+0.040000200271606445 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+2)
+# # . . # # 
+# . B B . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa B in stanga
+3)
+# # . . # # 
+# B B . . # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in sus
+4)
+# # . . # # 
+# B B * * # 
+# A . . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# B B * * # 
+# . A . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+6)
+# # . . # # 
+# B B * * # 
+# . . A . # 
+# # # # # # 
+
+Mutam piesa B in jos
+7)
+# # . . # # 
+# . . * * # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+8)
+# # . . # # 
+# . * * . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # * * # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Mutam piesa * in sus
+10)
+# # . . # # 
+# . . . . # 
+# B B A . # 
+# # # # # # 
+
+Cost: 12
+Lungime: 10
+Numar noduri totale in memorie: 342
+
+----------------
+
+0.04600119590759277 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+2)
+# # . . # # 
+# . . B B # 
+# A * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 385
+
+----------------
+
+0.05500221252441406 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+2)
+# # . . # # 
+# . . B B # 
+# A * * . # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+12)
+# # * * # # 
+# . . A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+13)
+# # . . # # 
+# . . A . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 13
+Lungime: 13
+Numar noduri totale in memorie: 451
+
+----------------
+
+Numar noduri maxime in memorie: 342
+
+
+##################
+
+Solutii obtinute cu A* optimizat - Neadmisibil:
+0.09599876403808594 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+2)
+# # . . # # 
+# . . B B # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 784
+
+----------------
+
+0.09699773788452148 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+2)
+# # . . # # 
+# . . B B # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa . in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in stanga
+13)
+# # . . # # 
+# . . A . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 13
+Lungime: 13
+Numar noduri totale in memorie: 786
+
+----------------
+
+0.09799981117248535 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+2)
+# # . . # # 
+# . . B B # 
+# . A * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa . in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+13)
+# # . . # # 
+# . . A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in stanga
+14)
+# # . . # # 
+# . A . . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 14
+Lungime: 14
+Numar noduri totale in memorie: 789
+
+----------------
+
+Numar noduri maxime in memorie: 784
+
+
+##################
+
+Solutii obtinute cu IDA* - Banal:
+Limita de pornire: 1
+>>> Limita noua: 2
+Limita de pornire: 2
+>>> Limita noua: 3
+Limita de pornire: 3
+>>> Limita noua: 4
+Limita de pornire: 4
+>>> Limita noua: 5
+Limita de pornire: 5
+>>> Limita noua: 6
+Limita de pornire: 6
+>>> Limita noua: 7
+Limita de pornire: 7
+>>> Limita noua: 8
+Limita de pornire: 8
+>>> Limita noua: 9
+Limita de pornire: 9
+>>> Limita noua: 10
+Limita de pornire: 10
+>>> Limita noua: 11
+Limita de pornire: 11
+>>> Limita noua: 12
+Limita de pornire: 12
+7.368996620178223 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 33
+12
+----------------
+
+7.371997356414795 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+8)
+# # . . # # 
+# . . . A # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 31
+12
+----------------
+
+8.663996458053589 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 34
+12
+----------------
+
+Numar noduri maxime in memorie: 34
+
+
+##################
+
+Solutii obtinute cu IDA* - Admisibila 1:
+Limita de pornire: 1
+>>> Limita noua: 5
+Limita de pornire: 5
+>>> Limita noua: 6
+Limita de pornire: 6
+>>> Limita noua: 7
+Limita de pornire: 7
+>>> Limita noua: 8
+Limita de pornire: 8
+>>> Limita noua: 9
+Limita de pornire: 9
+>>> Limita noua: 10
+Limita de pornire: 10
+>>> Limita noua: 11
+Limita de pornire: 11
+>>> Limita noua: 12
+Limita de pornire: 12
+0.5500001907348633 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 33
+12
+----------------
+
+0.6830008029937744 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 34
+12
+----------------
+
+0.7290008068084717 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+3)
+# # . . # # 
+# A . B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# A . B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 34
+12
+----------------
+
+Numar noduri maxime in memorie: 34
+
+
+##################
+
+Solutii obtinute cu IDA* - Neadmisibila:
+Limita de pornire: 1
+>>> Limita noua: 97
+Limita de pornire: 97
+>>> Limita noua: 98
+Limita de pornire: 98
+>>> Limita noua: 99
+Limita de pornire: 99
+>>> Limita noua: 100
+Limita de pornire: 100
+>>> Limita noua: 101
+Limita de pornire: 101
+>>> Limita noua: 102
+Limita de pornire: 102
+>>> Limita noua: 103
+Limita de pornire: 103
+>>> Limita noua: 104
+Limita de pornire: 104
+>>> Limita noua: 105
+Limita de pornire: 105
+>>> Limita noua: 106
+Limita de pornire: 106
+>>> Limita noua: 107
+Limita de pornire: 107
+7.611001014709473 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Cost: 12
+Lungime: 12
+Numar noduri totale in memorie: 33
+107
+----------------
+
+7.611001014709473 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa . in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in stanga
+13)
+# # . . # # 
+# . . A . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 13
+Lungime: 13
+Numar noduri totale in memorie: 35
+107
+----------------
+
+7.611001014709473 secunde
+Solutie: 
+1)
+# # . . # # 
+# . . B B # 
+# A . * * # 
+# # # # # # 
+
+Mutam piesa A in sus
+2)
+# # . . # # 
+# A . B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+3)
+# # . . # # 
+# . A B B # 
+# . . * * # 
+# # # # # # 
+
+Mutam piesa * in stanga
+4)
+# # . . # # 
+# . A B B # 
+# . * * . # 
+# # # # # # 
+
+Mutam piesa * in stanga
+5)
+# # . . # # 
+# . A B B # 
+# * * . . # 
+# # # # # # 
+
+Mutam piesa B in jos
+6)
+# # . . # # 
+# . A . . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+7)
+# # . . # # 
+# . . A . # 
+# * * B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+8)
+# # . . # # 
+# * * A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in dreapta
+9)
+# # . . # # 
+# * * . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in dreapta
+10)
+# # . . # # 
+# . * * A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+11)
+# # * * # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa . in sus
+12)
+# # . . # # 
+# . . . A # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa A in stanga
+13)
+# # . . # # 
+# . . A . # 
+# . . B B # 
+# # # # # # 
+
+Mutam piesa * in sus
+14)
+# # . A # # 
+# . . . . # 
+# . . B B # 
+# # # # # # 
+
+Cost: 14
+Lungime: 14
+Numar noduri totale in memorie: 38
+107
+----------------
+
+Numar noduri maxime in memorie: 33
